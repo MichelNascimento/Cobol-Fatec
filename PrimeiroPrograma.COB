@@ -19,7 +19,7 @@
            DISPLAY WS-MENSAGEM.
            DISPLAY 'Por favor, digite seu nome:'.
            ACCEPT WS-NOME.
-           DISPLAY 'Prazer em conhecê-lo,' WS-NOME.
+           DISPLAY 'Prazer em conhecê-lo, ' WS-NOME.
            MOVE 'Tenha um ótimo dia' TO WS-MENSAGEM.
            DISPLAY WS-MENSAGEM.
            STOP RUN.
